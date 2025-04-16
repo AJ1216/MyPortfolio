@@ -1,0 +1,53 @@
+/* src/Components/Header/Header.css */
+
+.header {
+    display: flex; /* Use flexbox for layout */
+    justify-content: space-between; /* Space between Logo and Navbar */
+    align-items: center; /* Center items vertically */
+    padding: 20px; /* Add some padding */
+    background-color: #303030; /* Purple background color */
+    color: white; /* Text color */
+    position: fixed; /* Fix the header at the top */
+    top: 0; /* Position it at the top */
+    left: 0; /* Align it to the left */
+    width: 100%; /* Full width */
+    z-index: 1000; /* Ensure it stays above other content */
+}
+
+.logo {
+    font-size: 24px; /* Adjust font size for the logo */
+    font-weight: bold; /* Bold logo text */
+}
+
+/* Ensuring navbar items are styled correctly within the header */
+.navbar {
+    display: flex; /* Use flexbox for navbar items */
+    list-style: none; /* Remove default list styling */
+    margin: 0; /* Remove margin */
+    padding: 0; /* Remove padding */
+}
+
+.navbar li {
+    margin: 0 15px; /* Space between navbar items */
+}
+
+.navbar a {
+    color: white; /* Link color */
+    text-decoration: none; /* Remove underline */
+    transition: color 0.3s; /* Smooth color transition on hover */
+}
+
+.navbar a:hover {
+    color: #8e68f7; /* Change color on hover */
+}
+
+/* Optional: Add responsiveness for smaller screens */
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column; /* Stack items vertically on small screens */
+        align-items: center; /* Center items */
+    }
+    .navbar li {
+        margin: 10px 0; /* Vertical spacing */
+    }
+}

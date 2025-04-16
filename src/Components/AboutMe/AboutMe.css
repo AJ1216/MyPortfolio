@@ -1,0 +1,41 @@
+.about {
+  padding: 10rem;
+  background-color: rgb(32, 35, 37);
+  max-width: 1000px; /* Increased width to accommodate image and text */
+  margin: 2rem auto;
+  margin-top: 4rem;
+  margin-bottom: 6rem;
+  
+
+}
+
+
+.about-content {
+  display: flex; /* Use flexbox to align image and text side by side */
+  align-items: center; /* Vertically center align the content */
+  
+}
+
+.about-image img {
+  max-width: 20rem;
+  height: auto;
+  border-radius: 8rem;
+  margin-right: 2rem; /* Add space between the image and text */
+}
+
+.about-text {
+  flex: 1; /* Make the text take up the remaining space */
+}
+
+.about h2 {
+  font-size: 2rem;
+  margin-bottom: 1rem;
+  color: #ffffff;
+}
+
+.about p {
+  font-size: 1.1rem;
+  line-height: 1.6;
+  color: #ffffff;
+  margin-bottom: 1rem;
+}

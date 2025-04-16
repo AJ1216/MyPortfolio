@@ -1,0 +1,42 @@
+/* src/Components/Header/Navbar/Navbar.css */
+
+.navbar {
+  width: 100%; /* Full width of the navbar */
+  padding: 1rem 0; /* Vertical padding */
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: center; /* Center the container */
+  align-items: center; /* Center items vertically */
+  width: 100%; /* Ensure it takes full width */
+}
+
+.navbar-links {
+  list-style: none; /* Remove bullet points */
+  display: flex; /* Display links in a row */
+  justify-content: center; /* Center links horizontally */
+  align-items: center; /* Center links vertically */
+  margin: 0; /* Remove margin */
+  padding: 0; /* Remove padding */
+}
+
+.navbar-links li {
+  margin: 0 15px; /* Space between links */
+}
+
+.navbar-links a {
+  color: #fff; /* Link color */
+  text-decoration: none; /* Remove underline */
+  font-weight: bold; /* Make links bold */
+  transition: color 0.3s; /* Smooth transition */
+}
+
+.navbar-links a:hover {
+  color: #12f31d; /* Change color on hover */
+}
+
+.active-link {
+  border-bottom: 2px solid #12f330; /* Underline for active link */
+}
+

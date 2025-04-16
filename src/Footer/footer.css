@@ -1,0 +1,30 @@
+.footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  background-color:rgb(22, 23, 24);
+  padding: 10px;
+}
+
+.footer-content {
+  display: flex;
+  align-items: center;
+}
+
+.copyright {
+  font-size: 14px;
+  color: #ffffff;
+  margin-right: 20px;
+}
+
+.home-button {
+  background-color: transparent;
+  border: none;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.home-button svg {
+  color: #9872ff;
+}

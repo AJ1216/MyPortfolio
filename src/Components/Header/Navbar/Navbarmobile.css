@@ -1,0 +1,75 @@
+/* src/Components/Header/Navbar/Navbarmobile.css */
+
+
+html, body {
+    width: 100%;
+    overflow-x: hidden; /* Ensure no horizontal scroll */
+    margin: 0;
+    padding: 0;
+}
+
+
+/* Mobile Styles for Navbar */
+.navbar {
+    padding: 0.5rem 0; /* Adjust navbar padding for mobile */
+    display: flex; /* Enable flexbox layout */
+    justify-content: space-between; /* Space between items */
+    align-items: center; /* Center items vertically */
+    width: 100%; /* Set width to 100% */
+}
+
+/* Responsive Styles for Mobile */
+@media (max-width: 768px) {
+    .hamburger {
+        display: flex; /* Show hamburger on mobile */
+        flex-direction: column; /* Stack lines vertically */
+        cursor: pointer; /* Change cursor to pointer */
+        margin-left: auto; /* Align hamburger to the right */
+        margin-right: 3rem; /* Adjust margin as needed */
+    }
+
+    .line {
+        height: 3px;
+        width: 30px;
+        background-color: #fff; /* Hamburger line color */
+        margin: 3px 0; /* Space between lines */
+    }
+
+    /* Mobile Menu Styles */
+    .navbar-links {
+        flex-direction: column; /* Stack links vertically on small screens */
+        align-items: center; /* Center links */
+        width: 100%; /* Full width for better touch targets */
+        padding: 1rem 0; /* Add some padding for links */
+        display: none; /* Hide links by default */
+        position: absolute; /* Use absolute positioning to overlay menu */
+        top: 60px; /* Adjust based on your navbar height */
+        left: 0; /* Align to the left side */
+        background-color: #444444; /* Background color of the menu */
+        z-index: 1; /* Ensure the menu is above other content */
+    }
+
+    .navbar-links.active {
+        display: flex; /* Show links when active */
+    }
+
+    .navbar-links li {
+        margin: 10px 0; /* Vertical spacing */
+        width: 100%; /* Full width for clickable area */
+        text-align: center; /* Center the text */
+    }
+
+    .navbar-links a {
+        padding: 0.5rem 0; /* Add vertical padding to links */
+        display: block; /* Make links block elements for better click area */
+        color: #fff; /* Link color */
+        text-decoration: none; /* Remove underline */
+        font-weight: bold; /* Make links bold */
+        transition: color 0.3s; /* Smooth transition */
+        width: 100%; /* Ensure link takes full width */
+    }
+
+    .navbar-links a:hover {
+        color: #12f31d; /* Change color on hover */
+    }
+}

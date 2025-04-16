@@ -1,0 +1,10 @@
+/* SkillsCard.css */
+.skills-card {
+  text-align: center;
+}
+
+.devicon {
+  font-size: 50px; /* Adjust size as needed */
+  margin-bottom: 10px; /* Space between icon and text */
+}
+

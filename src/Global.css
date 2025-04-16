@@ -1,0 +1,31 @@
+body {
+    background-color: rgb(32, 35, 37);
+  }
+  
+  h2{
+    color: white;
+  }
+  
+  /* Scrollbar styles */
+  ::-webkit-scrollbar {
+    width: 10px;
+    height: 10px; /* Add height property */
+  }
+  
+  ::-webkit-scrollbar-horizontal {
+    display: none;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background: #2b2828; /* Scrollbar track color */
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background: #7852e0; /* Scrollbar thumb color */
+    border-radius: 5px;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background: #ffffff; /* Scrollbar thumb hover color */
+  }
+

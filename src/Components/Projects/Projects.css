@@ -1,0 +1,70 @@
+/* src/Components/Projects/Projects.css */
+
+.projects {
+    padding: 6rem;
+    background-color: rgb(22, 23, 24);
+    margin-left: 40px;
+    margin-right: 40px;
+   
+  }
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+
+
+  .projects {
+    padding: 6rem; /* Increased padding */
+    background-color: rgb(22, 23, 24);
+    margin-left: 40px;
+    margin-right: 40px;
+}
+
+/* Adjust for smaller devices */
+@media (max-width: 768px) {
+  .projects {
+      padding: 5rem; /* Reduced padding */
+      margin-left: 20px; /* Reduced side margins */
+      margin-right: 20px;
+  }
+}
+
+/* 550px and below (Small devices) */
+@media (max-width: 550px) {
+  .projects {
+      padding: 3rem; /* Further reduced padding */
+      margin-left: 10px; /* Further reduced side margins */
+      margin-right: 10px;
+  }
+}
+
+/* 375px and below (iPhone SE and similar) */
+@media (max-width: 375px) {
+  
+  .project-list {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    
+  }
+  .projects {
+    padding: 4rem; /* Increased padding */
+    background-color: rgb(22, 23, 24);
+    margin-left: 40px;
+    margin-right: 40px;
+    text-align: center;
+}
+
+}
+
+/* 340px and below (Smallest devices) */
+@media (max-width: 340px) {
+  .projects {
+      padding: 1.5rem; /* Minimal padding for very small screens */
+      margin-left: 0; /* No side margins */
+      margin-right: 0;
+  }
+}
